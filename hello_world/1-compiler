@@ -1,18 +1,2 @@
 #!/bin/bash
-#!/bin/bash
-
-# Vérifie que la variable CFILE est définie
-if [ -z "$CFILE" ]; then
-    echo "Erreur : la variable CFILE n'est pas définie."
-    echo "Utilisation : CFILE=monfichier.c ./script.sh"
-    exit 1
-fi
-
-# Vérifie que le fichier existe
-if [ ! -f "$CFILE" ]; then
-    echo "Erreur : le fichier '$CFILE' n'existe pas."
-    exit 1
-fi
-
-# Remplace l'extension
-
+#gcc -c "$CFILE" -o "$OUTPUT"

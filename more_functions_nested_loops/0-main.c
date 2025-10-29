@@ -1,8 +1,6 @@
-/**
- * main - check the code.
- *
- * Return: Always 0.
- */
+#include "main.h"
+#include <stdio.h>
+
 int main(void)
 {
     char c;
@@ -13,3 +11,4 @@ int main(void)
     printf("%c: %d\n", c, _isupper(c));
     return (0);
 }
+

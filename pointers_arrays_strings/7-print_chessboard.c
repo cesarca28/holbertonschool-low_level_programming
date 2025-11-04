@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* _chessboard - Write a function that prints the chessboard.
-* @a: 2D array representing the chessboard (8x8)
+ * print_chessboard - Prints the chessboard
+ * @a: 2D array representing the chessboard (8x8)
  *
  * Description: Prints an 8x8 chessboard using the characters
  * stored in the array @a, followed by a newline after each row.
